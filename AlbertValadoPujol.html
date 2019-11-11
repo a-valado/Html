@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<title>Tasca 3</title>
+</head>
+<body>
+    <header><h1>Formularis</h1></header>
+    <!-- Formulari per demanar informació escrita-->
+    <h2>Diferents exemples de formularis</h2>
+    <form>
+        Nom<br>
+        <input type="text" name="nombre"><br>
+        Llinatge 1:<br>
+        <input type="text" name="apellido1"><br>
+        Llinatge 2:<br>
+        <input type="text" name="apellido2"><br>
+    </form>
+    <!-- Formulari per escollir entre opcions-->
+    <form>
+        <fieldset>
+        Escull un:<br>
+        <input type="radio" name="valor" value="1" checked> 1 <br>
+        <input type="radio" name="valor" value="2"> 2 <br>
+        <input type="radio" name="valor" value="3"> 3 <br>
+        </fieldset>
+    </form>
+    <!-- Formulari per demanar informació escrita i enviar-la a un tercer, obrint una nova pestanya-->
+    <form action="/action_page.php" target="_blank"> <!--Aquest arxiu .php no existeix-->
+       <fieldset>
+           <legend>Introdueixi la següent informació:</legend>
+            Nom:<br>
+            <input type="text" name="nombre"><br>
+            Llinatge 1:<br>
+            <input type="text" name="apellido1"><br>
+            Llinatge 2:<br>
+            <input type="text" name="apellido2"><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Selecciona un:</legend>
+            <select name="formes">
+                <option value="triangle">Triangle</option>
+                <option value="quadrat">Quadrat</option>
+                <option value="hexagon">Hexàgon</option>
+                <option value="cercle">Cercle</option>
+            </select>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Selecciona els que vulguis:</legend>
+            <select name="formes" multiple>
+                <option value="triangle">Triangle</option>
+                <option value="quadrat">Quadrat</option>
+                <option value="hexagon">Hexàgon</option>
+                <option value="cercle">Cercle</option>
+            </select>
+        </fieldset>
+    </form>
+    <form>
+        <textarea name="opinio" rows="15" cols="30">Escriu la teva opinió d'aquest formulari.</textarea>
+    </form>
+<!--Això és un botó-->
+    <h2>Un exemple de "button"</h2>
+    <button type="button" onclick="alert('Has clicat correctament.')">Fes clic aquí!</button>
+<!--Això és un exemple d'un formulari escrit que dona opcions-->    
+    <h2>Un exemple de "datalist"</h2>
+    <form>
+        Escull un navegador:<br>
+        <input list="navegadors" name="navegador">
+        <datalist id="navegadors">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    <input type="submit">
+    </form>
+    <h2>Altres exemples de formularis</h2>
+    <form>
+        Ticar diferents opcions<br>
+        <input type="checkbox" name="molt" value="molt"> La pàgina de formularis m'agrada molt<br>
+        <input type="checkbox" name="moltíssim" value="moltissim"> La pàgina de formularis m'agrada moltíssim<br>
+    </form>
+  <footer><p>Albert Valado me fecit. 11/2019</p> </footer>
+</body>

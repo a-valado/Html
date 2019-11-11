@@ -1,0 +1,98 @@
+
+body{
+    background: antiquewhite
+}
+header{
+    background-image: url(https://tinyurl.com/y5w9ahwc);
+    font-family: "Lobster", cursive;
+    padding:15px;
+    margin:1px;
+}
+footer{
+    background-image:url(https://tinyurl.com/y5w9ahwc);
+    text-align: center;
+    padding:15px;
+}
+h1{
+    color: whitesmoke;
+    font-family:"Lobster", cursive;
+    text-align:center;
+    
+}
+h2 {
+    color:black;
+    background-color: brown;
+    font-family:"Lobster", cursive;
+    margin:2px;
+    padding: 10px;
+    }
+h3{
+    color: whitesmoke;
+    font-family:"Montserrat", sans-serif;
+    align-content: center;
+}
+p{
+    font-family:"Montserrat", sans-serif;
+    color:black;
+    align-content:justify;
+} 
+table, tr, th, td{
+    background-color:lightgray;
+    color:black;
+    font-family:"Montserrat", sans-serif;
+    padding:5px;
+    margin:1px;
+    border:1px solid brown;
+    border-collapse: separate;
+}
+#menu{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: brown;
+    margin: 0;
+    padding:0;
+    color: black;
+    text-decoration: none;
+    font-family: "Lobster", cursive;
+}
+#menu li {
+    float: left;
+}
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+.lista{
+    display:block;
+    background:brown;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.lista li{
+    background:lightgray;
+    margin: 5px;
+}
+#Peliculas{
+    width:60%;
+    display:block;
+}
+#Danny{
+    width:25%;
+    float:right;
+    margin-left:20px;
+    margin-right:auto;
+}
+#TV{
+    clear:both;
+}
+#Contacto{
+    text-align:center;
+    color:greenyellow;
+}
